@@ -10,5 +10,6 @@
     graphite: {
         globalPrefix: "stats",
         legacyNamespace: false
-    }
+    },
+    percentThreshold: [50, 90, 95, 99]
 }
